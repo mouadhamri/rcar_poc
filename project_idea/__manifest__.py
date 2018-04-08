@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name': 'CRM extra fields',
+    'name': 'PMO IDEA',
     'version': '1.0.0',
     'category': 'PMO Idea',
     'description': """
