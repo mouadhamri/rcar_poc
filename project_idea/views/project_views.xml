@@ -3,7 +3,7 @@
 
     <record id="project_idea_form_view" model="ir.ui.view">
         <field name="name">projet.idea.form.view</field>
-        <field name="model">projet.idea</field>
+        <field name="model">project.idea</field>
         <field name="arch" type="xml">
             <form>
                 <field name="name"/>
@@ -12,7 +12,7 @@
     </record>
     <record id="projet_idea_tree_view" model="ir.ui.view">
         <field name="name">projet.idea.tree.view</field>
-        <field name="model">lprojet.idea</field>
+        <field name="model">project.idea</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
@@ -22,7 +22,7 @@
 
     <record id="projet_idea_action" model="ir.actions.act_window">
         <field name="name">Liste des idées de projets</field>
-        <field name="res_model">projet.idea</field>
+        <field name="res_model">project.idea</field>
         <field name="view_mode">tree,form</field>
         <field name="view_type">form</field>
 
