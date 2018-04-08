@@ -5,8 +5,7 @@
     'version': '1.0.0',
     'category': 'PMO Idea',
     'description': """
-Constitution du portefeuille des projets
-========================
+        Constitution du portefeuille des projets
     """,
     'depends': ['base','project'],
     'data': [

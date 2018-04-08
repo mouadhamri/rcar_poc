@@ -22,7 +22,7 @@
 
     <record id="projet_idea_action" model="ir.actions.act_window">
         <field name="name">Liste des idées de projets</field>
-        <field name="res_model">project.idea</field>
+        <field name="res_model">lproject.idea</field>
         <field name="view_mode">tree,form</field>
         <field name="view_type">form</field>
 
