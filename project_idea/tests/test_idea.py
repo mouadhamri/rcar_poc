@@ -5,4 +5,3 @@ class TestProjectIdea(common.TransactionCase):
         #record = self.env['model.a'].create({'field': 'value'})
         #record.some_action()
         self.assertEqual(5,5)
-        self.assertEqual(5,8)
