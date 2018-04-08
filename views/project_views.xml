@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="project_idea_form_view" model="ir.ui.view">
+        <field name="name">projet.idea.form.view</field>
+        <field name="model">projet.idea</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="name"/>
+            </form>
+        </field>
+    </record>
+    <record id="projet_idea_tree_view" model="ir.ui.view">
+        <field name="name">projet.idea.tree.view</field>
+        <field name="model">lprojet.idea</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="projet_idea_action" model="ir.actions.act_window">
+        <field name="name">Liste des idées de projets</field>
+        <field name="res_model">projet.idea</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_type">form</field>
+
+    </record>
+
+     <menuitem id="projet_idea_root_menu" name="Idées de projets" parent="project.menu_main_pm"
+            sequence="0"/>
+
+     <menuitem id="projet_idea_menu"
+            name="Idées de projets"
+            parent="projet_idea_root_menu"
+            action="projet_idea_action"
+            sequence="0"/>
+
+</odoo>
